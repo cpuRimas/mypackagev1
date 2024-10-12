@@ -3,15 +3,15 @@ package mymath
 import "math"
 
 func Max(x, y float64) float64 {
-	return mymath.Max(x, y)
+	return math.Max(x, y)
 }
 
 func Yn(n int, x float64) float64 {
-	return mymath.Yn(n, x)
+	return math.Yn(n, x)
 }
 
 func Sqrt(x float64) float64 {
-	return mymath.Sqrt(x)
+	return math.Sqrt(x)
 }
 
 func Abs(x float64) float64 {
